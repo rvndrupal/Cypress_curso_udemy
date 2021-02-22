@@ -1,0 +1,16 @@
+{
+  "name": "nivel_basico",
+  "version": "1.0.0",
+  "description": "Curso nivel básico",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-plugin-tab": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
