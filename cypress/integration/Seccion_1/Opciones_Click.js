@@ -47,7 +47,7 @@ describe("Curso de Cypress Nivel Básico", () =>{
     });
 
 
-    it.only("Click Coordenadas (x,y)", () =>{
+    it("Click Coordenadas (x,y)", () =>{
        
         cy.visit("https://orangehrm-demo-6x.orangehrmlive.com/auth/login") 
         cy.title().should('eq','OrangeHRM')
