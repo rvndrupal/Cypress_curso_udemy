@@ -12,7 +12,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat  'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-uno'
                     }
                 }
                  stage('Node2') {
@@ -23,7 +23,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat  'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-uno'
                     }
                 }
             }
