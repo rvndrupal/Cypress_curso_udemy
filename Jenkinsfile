@@ -31,7 +31,7 @@ pipeline {
 
                  stage('Node3') {
                     agent {
-                        label "Agent2_1"
+                        label "node1_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
@@ -44,7 +44,7 @@ pipeline {
 
                  stage('Node4') {
                     agent {
-                        label "Agent2_1"
+                        label "node2_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
