@@ -13,6 +13,7 @@ pipeline {
                         bat 'npm install'
                         bat 'npm update'
                         bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-dos'
                     }
                 }
                 stage('Node2') {
@@ -24,6 +25,8 @@ pipeline {
                         bat 'npm install'
                         bat 'npm update'
                         bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-dos'
+
                     }
                 }
                   
