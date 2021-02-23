@@ -75,6 +75,7 @@ https://medium.com/@you54f/dynamically-generate-data-in-cypress-from-csv-xlsx-78
 
 15.-Instalar Npx.
     .-https://www.npmjs.com/package/npx
+    .-npm install -g npx
 
     .-npx cypress open
 
