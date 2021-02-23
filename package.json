@@ -10,12 +10,12 @@
     "cypress-xpath": "^1.6.2"
   },
   "scripts": {
-    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
-    "triger-parallel-dos": "npx cypress run --spec cypress/integration/Seccion_1/Input_text.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
-    "triger-parallel-tres": "npx cypress run --spec cypress/integration/Seccion_1/Opciones_Click.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
-    "triger-parallel-cuatro": "npx cypress run --spec cypress/integration/Seccion_1/Opciones_Type.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
-    "triger-parallel-cinco": "npx cypress run --spec cypress/integration/Seccion_1/Primer_desafio.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
-    "triger-sin-parallel": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --headed"
+    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel ",
+    "triger-parallel-dos": "npx cypress run --spec cypress/integration/Seccion_1/Input_text.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel ",
+    "triger-parallel-tres": "npx cypress run --spec cypress/integration/Seccion_1/Opciones_Click.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel ",
+    "triger-parallel-cuatro": "npx cypress run --spec cypress/integration/Seccion_1/Opciones_Type.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel ",
+    "triger-parallel-cinco": "npx cypress run --spec cypress/integration/Seccion_1/Primer_desafio.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel ",
+    "triger-sin-parallel": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 "
   },
   "author": "",
   "license": "ISC"
