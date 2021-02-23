@@ -16,9 +16,9 @@ Nota par quitar jenkins .- https://stackoverflow.com/questions/26677637/how-to-u
     .-descragr el war .->https://www.jenkins.io/download/  descargar el exe
     .-Ponerlo en C:
     .-ejecutar .- cd C:C:\Program Files\Jenkins
-    .-jenkins.exe stop
-    .-jenkins.exe start
-    .-jenkins.exe restart
+    .-jenkins  stop
+    .-jenkins  start
+    .-jenkins restart
    
     .-Instalar plugins Github
     .-Instalar Node 
