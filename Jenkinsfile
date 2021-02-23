@@ -23,7 +23,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-dos'
                     }
                 }
                 stage('Node3') {
@@ -34,7 +34,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-tres'
                     }
                 }
                 stage('Node4') {
@@ -45,7 +45,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-cuatro'
                     }
                 }
                 stage('Node5') {
@@ -56,7 +56,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-cinco'
                     }
                 }
 
@@ -81,7 +81,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-dos'
                     }
                 }
                 stage('Node8') {
@@ -92,7 +92,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-tres'
                     }
                 }
                 stage('Node9') {
@@ -103,7 +103,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-cuatro'
                     }
                 }
                 stage('Node10') {
@@ -114,7 +114,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-cinco'
                     }
                 }
 
