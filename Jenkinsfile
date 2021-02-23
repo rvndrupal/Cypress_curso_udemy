@@ -123,11 +123,8 @@ pipeline {
                 
             }
         }
-    }
 
 
-
-    stages {
         stage('Cypress Parallel Test two') {
             parallel {
                 stage('Node1') {
@@ -156,4 +153,10 @@ pipeline {
             }
         }
     }
+
+
+
+    
+        
+    
 }
