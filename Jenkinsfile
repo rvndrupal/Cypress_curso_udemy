@@ -55,18 +55,7 @@ pipeline {
                     }
                 }
 
-                 stage('Node5') {
-                    agent {
-                        label "node1_1"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-
-                    }
-                }
+                 
                   
             }
 
