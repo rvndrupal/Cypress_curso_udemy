@@ -41,3 +41,17 @@ Nota par quitar jenkins .- https://stackoverflow.com/questions/26677637/how-to-u
     .-super importante  agregar el projectId en cypress.json    -->    "projectId": "5qxa2x"
     
 
+##############################################################################################
+Maquinas virtuales.
+
+Apagar los firewalls de las dos.
+.-probar con unos pin 
+.-Cambiar la ip de la maquina maestra como la imagen-> Configurar->sistema
+.-instalar java en las maquinas virtuales 11
+.-configurar variables de entorno.
+.-Instalar node
+.-Instalar Git
+.-Entra a la ip maestra:8080
+.-Configurar el git y el node de las virtuales como las imagenes
+.-Piner la configuración como se ve en la imagen.
+.-Descragr los jar en ponerlos en Agent1 y Agent2

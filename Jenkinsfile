@@ -6,7 +6,7 @@ pipeline {
             parallel {
                 stage('Node1') {
                     agent {
-                        label "node1_1"
+                        label "Agent1_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
@@ -18,7 +18,7 @@ pipeline {
                 }
                 stage('Node2') {
                     agent {
-                        label "node1_2"
+                        label "Agent1_2"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
@@ -31,7 +31,7 @@ pipeline {
 
                  stage('Node3') {
                     agent {
-                        label "node1_3"
+                        label "Agent2_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
@@ -44,7 +44,7 @@ pipeline {
 
                  stage('Node4') {
                     agent {
-                        label "node2_1"
+                        label "Agent2_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
@@ -57,7 +57,7 @@ pipeline {
 
                  stage('Node5') {
                     agent {
-                        label "node2_2"
+                        label "node1_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
