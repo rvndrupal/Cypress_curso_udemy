@@ -10,7 +10,7 @@
     "cypress-xpath": "^1.6.2"
   },
   "scripts": {
-    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50  --headed --parallel",
+    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --parallel --browser chrome --headed",
     "triger-sin-parallel": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js   --record --key c673313b-e5bb-43ab-bd69-182db0ad5d50 --headed"
   },
   "author": "",
