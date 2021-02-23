@@ -21,7 +21,7 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm run triger-parallel-uno'
+                        bat 'npm run triger-parallel-dos'
                     }
                 }
                   
