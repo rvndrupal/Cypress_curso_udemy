@@ -35,5 +35,8 @@ Nota par quitar jenkins .- https://stackoverflow.com/questions/26677637/how-to-u
 
 
     .-Crear job
+
+    .-Hacer el archivo JenkinFile
+    .-Crear un Job pero de tipo pipelline
     
 
