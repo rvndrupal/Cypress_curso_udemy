@@ -32,7 +32,8 @@ Install--> https://www.youtube.com/watch?v=F53rDUwiAbU
 9.-Cambio del navegador.
     .-  node_modules\.bin\cypress run --browser chrome 
 
-    .-  node_modules\.bin\cypress run --spec "cypress\integration\examples\sipvi1.js"  
+    .-  node_modules\.bin\cypress run --spec "cypress\integration\examples\sipvi1.js" 
+    .-  node_modules\.bin\cypress run --spec "cypress\integration\Seccion_1\Primero.js" 
 
 10.-Correr en Paralelo
 .-   node_modules\.bin\cypress run --record --parallel  ->PENDIENTE

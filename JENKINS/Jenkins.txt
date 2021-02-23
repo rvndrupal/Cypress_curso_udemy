@@ -1,0 +1,39 @@
+Pasos de Parallelo.
+
+1.-Instalar jdk 11   ->   http://jdk.java.net/archive/    instalar el 11.02
+
+2.-Poner en c->programfiles 86-> crear carpeta java y descomprimir ahi.
+
+3.-Buscar Panel->System-> advanced system -> variables de entorno.
+    .-En el de abajo crear nueva variable de opcion y la imagen
+    .-En el patch tiene que tener la variable Java_home
+    .-Probar  cmd ->  java --version
+
+Nota par quitar jenkins .- https://stackoverflow.com/questions/26677637/how-to-uninstall-jenkins-on-windows
+    .-java -jar jenkins.war uninstall
+
+4.- Download jenkins
+    .-descragr el war .->https://www.jenkins.io/download/  descargar el exe
+    .-Ponerlo en C:
+    .-ejecutar .- cd C:C:\Program Files\Jenkins
+    .-jenkins.exe stop
+    .-jenkins.exe start
+    .-jenkins.exe restart
+   
+    .-Instalar plugins Github
+    .-Instalar Node 
+    .-Instalar Green Ball
+
+    .-Configuración:
+    .-Global tool configuracion
+    .-Add jdk-> imagen
+    .-Git -> imagen
+    .-Node -> imagen
+
+    .-utf8-->  https://pacroy.medium.com/how-to-fix-jenkins-console-log-encoding-issue-on-windows-a1f4b26e0db4
+    Agregar --> -Dfile.encoding=UTF8
+
+
+    .-Crear job
+    
+
