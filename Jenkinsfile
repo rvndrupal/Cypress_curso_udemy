@@ -119,61 +119,7 @@ pipeline {
                 }
 
 
-                stage('Node11') {
-                    agent {
-                        label "node3_1"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-                    }
-                }
-                stage('Node12') {
-                    agent {
-                        label "node3_2"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-                    }
-                }
-                stage('Node13') {
-                    agent {
-                        label "node3_3"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-                    }
-                }
-                stage('Node14') {
-                    agent {
-                        label "node3_4"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-                    }
-                }
-                stage('Node15') {
-                    agent {
-                        label "node3_5"
-                    }
-                    steps {
-                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
-                        bat 'npm install'
-                        bat 'npm update'
-                        bat 'npm run triger-parallel-uno'
-                    }
-                }
+                
                 
             }
         }
