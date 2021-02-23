@@ -10,7 +10,7 @@
     "cypress-xpath": "^1.6.2"
   },
   "scripts": {
-    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js --parallel"
+    "triger-parallel-uno": "npx cypress run --spec cypress/integration/Seccion_1/Primero.js  --parallel"
   },
   "author": "",
   "license": "ISC"
