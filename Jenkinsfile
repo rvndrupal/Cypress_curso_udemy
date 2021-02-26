@@ -42,8 +42,34 @@ pipeline {
                     }
                 }
 
+                stage('Node4') {
+                    agent {
+                        label "Gamer1_4"
+                    }
+                    steps {
+                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
+                        bat 'npm install'
+                        bat 'npm update'
+                        bat 'npm run triger-parallel-uno'
 
-                 stage('Node4') {
+                    }
+                }
+
+                 stage('Node5') {
+                    agent {
+                        label "Gamer1_5"
+                    }
+                    steps {
+                        git url: 'https://github.com/rvndrupal/Cypress_curso_udemy.git'
+                        bat 'npm install'
+                        bat 'npm update'
+                        bat 'npm run triger-parallel-uno'
+
+                    }
+                }
+
+
+                 stage('Node6') {
                     agent {
                         label "node1_1"
                     }
@@ -56,7 +82,7 @@ pipeline {
                     }
                 }
 
-                 stage('Node5') {
+                 stage('Node7') {
                     agent {
                         label "node2_1"
                     }

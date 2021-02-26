@@ -109,4 +109,7 @@ https://medium.com/@you54f/dynamically-generate-data-in-cypress-from-csv-xlsx-78
     
 
    
-Opciones Type
+18.-Maquinas externas si no se instala cypress bien solucion.
+
+.- instalar--> npm install -g npx
+.-npx cypress install --force   --> lo forza a instalarse
