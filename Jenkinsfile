@@ -173,7 +173,7 @@ pipeline {
                     }
                 }
 
-                 stage('Node12') {
+                stage('Node12') {
                     agent {
                         label "node2_1"
                     }
@@ -186,7 +186,7 @@ pipeline {
                     }
                 }
 
-                 stage('Node12') {
+                stage('Node12') {
                     agent {
                         label "node2_2"
                     }
