@@ -43,7 +43,7 @@ pipeline {
                 }
 
 
-                 stage('Node3') {
+                 stage('Node4') {
                     agent {
                         label "node1_1"
                     }
@@ -56,7 +56,7 @@ pipeline {
                     }
                 }
 
-                 stage('Node4') {
+                 stage('Node5') {
                     agent {
                         label "node2_1"
                     }
